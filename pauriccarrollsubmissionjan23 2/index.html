@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Stage 1: Make a Web Page Notes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+
+    <style>
+
+    body {
+        background-color: #fff;
+        color: #666;
+        line-height: 1.4em;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        color: #42444e;
+        font-size: 1.3em;
+        margin-top: 25px;
+    }
+
+    a {
+        color: #0087cc;
+    }
+
+    a:active,
+    a:hover {
+        color: #ff7b29
+    }
+
+    .container {
+        padding: 20px 60px;
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+        max-width: 600px;
+        margin: 0 auto;
+        font-size: 1em;
+        background-color: #f8f9fb;
+    }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav role="navigation">
+                <h1>Pauric Carroll Notes</h1>
+                <p class="subheading">Table of Contents</p>
+                <ul class="toc">
+                    <li><a href="#lesson-1">1:The Basics of the Web and HTML</a></li>
+                    <li><a href="#lesson-2">2:Creating a Structured Document with HTML</a></li>
+                    <li><a href="#lesson-3">3:Adding CSS Style to HTML Structure</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <h2 id="lesson-1">Lesson 1: The Basics of the Web and HTML</h2>
+        <h3 class="concept-title">How the Web Works</h3>
+        <p>
+            The web is a bunch of computers that communicate with each other. When a person goes to a web page like
+            www.google.com, their computer sends a
+            <em>HTTP Request</em> to a <em>server</em>. The server finds the appropriate HTML document and sends it back
+            to the user's computer where a <em>
+            web browser</em> interprets the page and displays it on the user's screen.
+            <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/e-48329854/m-48480496">This video</a>
+            does a good job of explaining more.
+        </p>
+        <h3 class="concept-title">HTML</h3>
+        <p> HTML stands for <em>Hypertext Markup Language.</em> HTML documents form the majority of
+            the content on the web. HTML documents contain <em>text content</em> which describes "what you see" and <em>markup</em>
+            which describes "how it looks".
+            <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48724340">This
+                video</a> gives a good overview.
+        </p>
+        <h3 class="concept-title">Tags and Elements</h3>
+        <p> HTML documents are made of HTML <strong>elements</strong>. When writing HTML, we tell
+            browsers the type of each element by using HTML tags.
+            <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48723444">This video</a> explains
+            the distinction well.
+        </p>
+        <h3 class="concept-title">Why Computers are Stupid</h3>
+        <p>Computers are stupid because they interpret instructions literally. This makes them very
+            unforgiving since a small mistake by a programmer can cause huge problems in a program.
+        </p>
+
+        <h2 id="lesson-2">Lesson 2: Creating a Structured Document with HTML</h2>
+
+        <h3 class="concept-title">Inline vs Block Elements</h3>
+        <p>HTML elements are either <em>inline</em> or <em>block</em>. Block elements form an
+            "invisible box" around the content inside of them.
+        </p>
+
+        <h3 class="concept-title">The "tree-like structure" of HTML</h3>
+        <p>The "tree-like structure" comes from the fact that HTML elements can have other elements
+            inside of them. You can draw this relationship like a family tree. My mother had multiple children. So did
+            her mother, and so on... In a browser, this structure
+            shows up as a series of nested boxes. There are boxes inside of boxes inside of boxes, and so on...
+        </p>
+
+        <h3 class="concept-title">Text Editors</h3>
+        <p>When writing code, programmers use special text editors (like Sublime Text for example).
+            These editors make the programmer's life easier. For example, some text editors will automatically generate
+            a closing HTML tag when you write an opening tag.
+        </p>
+
+        <h2 id="lesson-3">Lesson 3: Adding CSS Style to HTML Structure</h2>
+        <h3 class="concept-title">Avoiding Repetition</h3>
+        <p>Avoiding repetition helps to keep things consistent and to avoid introducing errors.</p>
+        <h3 class="concept-title">CSS</h3>
+        <p>CSS stands for Cascading Style Sheets and they give programmers a way to control the
+            style of related HTML elements.
+        </p>
+    </div>
+</body>
+
+</html>
